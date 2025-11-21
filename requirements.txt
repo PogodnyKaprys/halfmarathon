@@ -1,0 +1,15 @@
+streamlit==1.39.0
+pandas==2.2.3
+numpy==1.26.4
+pycaret==3.3.2
+scikit-learn==1.4.2
+itables==2.5.2
+boto3==1.35.36  # Do interakcji z DigitalOcean Spaces (kompatybilne z AWS S3)
+python-dotenv==1.0.1  # Do ładowania BUCKET_NAME/kluczy z pliku .env
+seaborn==0.13.2  # Do zaawansowanych wizualizacji
+matplotlib==3.7.5  # Podstawa dla Seaborn i plt.
+altair==4.2.0  # Do interaktywnych wykresów w Streamlit
+scipy==1.9.3  # (Test t-Studenta, choć nie jest w pełni zaimplementowany, importuje się go do tej sekcji)
+openai==1.47.0
+langfuse
+joblib
