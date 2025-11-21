@@ -1,6 +1,6 @@
 streamlit==1.39.0
 pandas==2.2.3
-numpy
+numpy==1.26.4
 pycaret==3.3.2
 scikit-learn==1.4.2
 itables==2.5.2
