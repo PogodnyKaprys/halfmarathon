@@ -27,7 +27,8 @@ import openai
 
 # --- KONFIGURACJA ŚRODOWISKA I ZASOBÓW ---
 load_dotenv()
-openai.api_key = os.environ("OPENAI_API_KEY")
+# POPRAWKA: Użyj nawiasów kwadratowych []
+openai.api_key = os.environ["OPENAI_API_KEY"] 
 
 BUCKET_NAME = "zadmod-9"
 MODEL_NAME = 'final_regression_pipeline'
